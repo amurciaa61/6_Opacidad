@@ -5,8 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_6_Opacidad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Opacidad" Height="450" Width="800">
     <Grid>
-        
+        <Image x:Name="imagen1Image"
+               HorizontalAlignment="Left"
+               Height="304"
+               Margin="42,57,0,0"
+               VerticalAlignment="Top"
+               Width="219"
+               Stretch="UniformToFill"
+               Source="Imagenes/episodioIV.jpg"
+               Opacity="0.5"
+               MouseEnter="Image_MouseEnter" 
+               MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="imagen2Image"
+               HorizontalAlignment="Left"
+               Height="304"
+               Margin="284,57,0,0"
+               VerticalAlignment="Top"
+               Width="219"
+               Stretch="UniformToFill"
+               Source="Imagenes/episodioV.jpg" 
+               Opacity="0.5"
+               MouseEnter="Image_MouseEnter"
+               MouseLeave="Image_MouseLeave"/>
+        <Image x:Name="imagen3Image"
+               HorizontalAlignment="Left"
+               Height="304"
+               Margin="530,57,0,0"
+               VerticalAlignment="Top"
+               Width="219"
+               Stretch="UniformToFill"
+               Source="Imagenes/episodioVI.jpg" 
+               Opacity="0.5"
+               MouseEnter="Image_MouseEnter"
+               MouseLeave="Image_MouseLeave"/>
     </Grid>
 </Window>
